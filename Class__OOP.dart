@@ -18,6 +18,10 @@ class BankAccount {
       print("Insufficient Balance");
     }
   }
+
+  double getBalance(){
+    return _balance;
+  }
   
   void displayAccountInfo(){
     print("Account Holder Name: $accountHolderName");
@@ -37,5 +41,7 @@ class BankAccount {
 main(){
   BankAccount account_1 = BankAccount("Rahim", 1001, 5000);
   account_1.displayAccountInfo();
+
+
 
 }
