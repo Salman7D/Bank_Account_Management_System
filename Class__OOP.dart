@@ -5,7 +5,6 @@ class BankAccount {
 
   BankAccount(this.accountHolderName, this.accountNumber, this._balance);
 
-
   void deposit(double amount) {
     _balance += amount;
   }
@@ -29,16 +28,9 @@ class BankAccount {
     print("Balance: $_balance");
   }
 
-
-
-
     }
 
-
-
-
-
-main(){
+  main(){
   BankAccount account_1 = BankAccount("Rahim", 1001, 5000);
   account_1.displayAccountInfo();
 
@@ -52,6 +44,5 @@ main(){
 
   BankAccount account_2 = BankAccount("Karim", 1002, 8000);
   account_2.displayAccountInfo();
-
 
 }
