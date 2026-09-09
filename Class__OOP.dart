@@ -48,7 +48,10 @@ main(){
   account_1.withdraw(1500);
   print("\nAfter Withdrawal: Balance: ${account_1.getBalance().toStringAsFixed(0)}");
 
+  print('\n--------------------------\n');
 
+  BankAccount account_2 = BankAccount("Karim", 1002, 8000);
+  account_2.displayAccountInfo();
 
 
 }
