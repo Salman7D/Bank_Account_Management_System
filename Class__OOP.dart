@@ -18,6 +18,12 @@ class BankAccount {
       print("Insufficient Balance");
     }
   }
+  
+  void displayAccountInfo(){
+    print("Account Holder Name: $accountHolderName");
+    print("Account Number: $accountNumber");
+    print("Balance: $_balance");
+  }
 
 
 
