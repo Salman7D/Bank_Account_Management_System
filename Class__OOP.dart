@@ -10,6 +10,17 @@ class BankAccount {
     _balance += amount;
   }
 
+  void withdraw(double amount){
+    if(_balance >= amount){
+      _balance -= amount;
+    }
+    else{
+      print("Insufficient Balance");
+    }
+  }
+
+
+
 
     }
 
