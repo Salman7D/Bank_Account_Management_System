@@ -42,6 +42,13 @@ main(){
   BankAccount account_1 = BankAccount("Rahim", 1001, 5000);
   account_1.displayAccountInfo();
 
+  account_1.deposit(2000);
+  print("\nAfter Deposit: Balance: ${account_1.getBalance().toStringAsFixed(0)}");
+
+  account_1.withdraw(1500);
+  print("\nAfter Withdrawal: Balance: ${account_1.getBalance().toStringAsFixed(0)}");
+
+
 
 
 }
