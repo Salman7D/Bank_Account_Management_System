@@ -1,3 +1,16 @@
+class BankAccount{
+  String ? accountHolderName;
+  int ? accountNumber;
+  int ? balance;
+}
+
+
+
+
+
+
+
 main(){
-print("OOP Assignment");
+
+
 }
